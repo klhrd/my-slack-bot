@@ -43,9 +43,9 @@ Query any word using `/bot-word [word] [mode]`. There are 3 modes designed for d
 If you want to host this yourself:
 
 1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/my-slack-bot.git](https://github.com/YOUR_USERNAME/my-slack-bot.git)
-   cd my-slack-bot
+```bash
+git clone [https://github.com/YOUR_USERNAME/my-slack-bot.git](https://github.com/YOUR_USERNAME/my-slack-bot.git)
+cd my-slack-bot
 
 ```
 
