@@ -10,7 +10,7 @@ It aggregates data from **Free Dictionary API (Wiktionary)** and **Datamuse API*
 
 ## ⚡ Features & Modes
 
-Query any word using `/bot-word [word] [mode]`. There are 3 modes designed for different needs:
+There are 3 modes designed for different needs:
 
 ### 1️⃣ `all` (Default Mode)
 * **Command:** `/bot-word <word>`
@@ -18,14 +18,14 @@ Query any word using `/bot-word [word] [mode]`. There are 3 modes designed for d
 * *Example:* `/bot-word ephemeral`
 
 ### 2️⃣ `thesaurus` (Thesaurus Mode)
-* **Command:** `/bot-word <word> thesaurus`
+* **Command:** `/bot-thesaurus <word>`
 * **What it does:** Perfect for writing or naming variables. It fetches deep synonyms, antonyms, consonant (derived) words, and related association words.
-* *Example:* `/bot-word persistent thesaurus`
+* *Example:* `/bot-thesaurus persistent`
 
 ### 3️⃣ `etymology` (Etymology Mode)
-* **Command:** `/bot-word <word> etymology`
+* **Command:** `/bot-etymology <word>`
 * **What it does:** Digs into the history of the word. Shows Wiktionary-sourced word origins (e.g., Latin/Greek roots) and morphologically related words.
-* *Example:* `/bot-word sympathy etymology`
+* *Example:* `/bot-etymology sympathy`
 
 ---
 
