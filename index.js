@@ -128,21 +128,21 @@ app.command("/bot-word", async ({ command, ack, respond }) => {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Definitions (基本釋義):*\n${definitionText}`
+                        text: `*Definitions:*\n${definitionText}`
                     }
                 },
                 {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Examples (例句):*\n${exampleText}`
+                        text: `*Examples:*\n${exampleText}`
                     }
                 },
                 {
                     type: "section",
                     fields: [
-                        { type: "mrkdwn", text: `*Synonyms (同義):*\n${synonyms}` },
-                        { type: "mrkdwn", text: `*Antonyms (反義):*\n${antonyms}` }
+                        { type: "mrkdwn", text: `*Synonyms:*\n${synonyms}` },
+                        { type: "mrkdwn", text: `*Antonyms:*\n${antonyms}` }
                     ]
                 }
             );
@@ -155,28 +155,28 @@ app.command("/bot-word", async ({ command, ack, respond }) => {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Synonyms (同義詞):*\n${synonyms}`
+                        text: `*Synonyms:*\n${synonyms}`
                     }
                 },
                 {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Antonyms (反義詞):*\n${antonyms}`
+                        text: `*Antonyms:*\n${antonyms}`
                     }
                 },
                 {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Derived / Consonant Words (派生詞/同諧音修飾詞):*\n${derivedWords}`
+                        text: `*Derived / Consonant Words:*\n${derivedWords}`
                     }
                 },
                 {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Related Words (相關聯想詞):*\n${relatedWords}`
+                        text: `*Related Words:*\n${relatedWords}`
                     }
                 }
             );
@@ -190,14 +190,14 @@ app.command("/bot-word", async ({ command, ack, respond }) => {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Etymology & Origin (字源追溯):*\n\n> ${etymologyText}`
+                        text: `*Etymology & Origin:*\n\n> ${etymologyText}`
                     }
                 },
                 {
                     type: "section",
                     text: {
                         type: "mrkdwn",
-                        text: `*Morphologically Related Words (同字根/同源衍生字詞):*\n${relatedWords}`
+                        text: `*Morphologically Related Words:*\n${relatedWords}`
                     }
                 }
             );
