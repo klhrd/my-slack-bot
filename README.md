@@ -1,5 +1,7 @@
 # 📖 Lexicon Explorer (Slack Bot)
 
+![screenshot](./public/screenshot.png)
+
 A high-performance, 24/7 Slack bot deployed on **Hack Club Nest** that acts as a deep English word analysis tool. No fluff, no basic toy commands—just pure linguistic data for developers, writers, and language learners.
 
 It aggregates data from **Free Dictionary API (Wiktionary)** and **Datamuse API** to give you dictionary definitions, pronunciation, synonyms, antonyms, rhyming words, and etymology.
