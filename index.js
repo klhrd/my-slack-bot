@@ -21,8 +21,7 @@ const formatWordList = (res) => {
 app.command("/bot-help", async ({ ack, respond }) => {
     await ack();
     await respond({
-        text: `*Advanced Lexicon Explorer*\n\n` +
-              `This bot is dedicated to deep English word analysis.\n\n` +
+        text: `This bot is dedicated to deep English word analysis.\n\n` +
               `*Available Commands:*\n` +
               `• \`/bot-word [word]\` - Query definition, phonetic pronunciation, and examples.\n` +
               `• \`/bot-thesaurus [word]\` - Deep dive into synonyms, antonyms, and derived words.\n` +
